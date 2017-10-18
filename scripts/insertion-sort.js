@@ -10,4 +10,4 @@ function insertionSort(numArray) {
   return numArray;
 }
 
-export default insertioneSort
+export default insertionSort
