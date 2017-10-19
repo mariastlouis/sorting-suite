@@ -7,14 +7,14 @@
 
 const randomNumberArray = require('./randomNumberArray.js');
 const bubbleSort = require('./bubble-sort.js');
-// const insertionSort = require('./insertion.js');
-// const mergeSort = require('./merge.js');
-// const quickSort = require('./quick.js');
+const insertionSort = require('./insertion-.js');
+const mergeSort = require('./merge-sort.js');
+const quickSort = require('./quick.js');
 
 module.exports = {
   randomNumberArray,
-  // insertionSort,
-  // mergeSort,
-  // quickSort,
+  insertionSort,
+  mergeSort,
+  quickSort,
   bubbleSort
 }

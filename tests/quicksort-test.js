@@ -44,8 +44,8 @@ describe('TDD with quickSort', () => {
     }
   });
 
-  it('should sort an array with 70000 items', () => {
-    let newArray = randomNumberArray(70000, 70000);
+  it('should sort an array with 1,000,000 items', () => {
+    let newArray = randomNumberArray(1000000, 1000000);
     let sortedArray = quickSort(newArray);
 
     for (let i = 0; i < sortedArray.length-1; i++) {
