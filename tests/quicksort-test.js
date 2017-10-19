@@ -26,8 +26,8 @@ describe('TDD with quickSort', () => {
     }
   });
 
-  it('Should sort an array with 5500 items', () => {
-    let newArray = randomNumberArray(5500, 5500);
+  it('Should sort an array with 50000 items', () => {
+    let newArray = randomNumberArray(50000, 50000);
     let sortedArray = quickSort(newArray);
     
     for(let i = 0; i<sortedArray.length; i++){
@@ -35,8 +35,8 @@ describe('TDD with quickSort', () => {
     }
   })
 
-  it('should sort an array with 15000 items', () => {
-    let newArray = randomNumberArray(15000, 15000);
+  it('should sort an array with 100000 items', () => {
+    let newArray = randomNumberArray(100000, 100000);
     let sortedArray = quickSort(newArray);
 
     for (let i = 0; i < sortedArray.length-1; i++) {

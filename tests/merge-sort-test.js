@@ -9,7 +9,7 @@ describe('TDD with mergeSort', () => {
     assert.isFunction(mergeSort);
   });
 
-   it('should sort an array with 2 items', () => {
+   it('should sort an array with 20 items', () => {
     let newArray = randomNumberArray(20, 50);
     let sortedArray = mergeSort(newArray);
     for (let i = 0; i < sortedArray.length-1; i++) {
