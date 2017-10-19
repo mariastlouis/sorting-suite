@@ -34,8 +34,9 @@ describe('TDD with insertionSort', () => {
     }
   });
 
-     it('Should sort an array with 5500 items', () => {
-    let newArray = randomNumberArray(5500, 5500);
+    it('Should sort an array with 1000 items', () => {
+    let newArray = randomNumberArray(10000, 10000);
+
     let sortedArray = insertionSort(newArray);
     
     for(let i = 0; i<sortedArray.length; i++){
@@ -43,8 +44,10 @@ describe('TDD with insertionSort', () => {
     }
   })
 
-    it('should sort an array with 15000 items', () => {
-    let newArray = randomNumberArray(15000, 15000);
+
+    it('should sort an array with 20000 items', () => {
+    let newArray = randomNumberArray(20000, 20000);
+
     let sortedArray = insertionSort(newArray);
 
     for (let i = 0; i < sortedArray.length-1; i++) {
