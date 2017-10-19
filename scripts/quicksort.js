@@ -15,4 +15,5 @@ function quickSort(array) {
         return [...quickSort(left), pivot,... quickSort(right)]
 }
 
+
 export default quickSort
