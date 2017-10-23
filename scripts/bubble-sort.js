@@ -9,4 +9,4 @@ const bubbleSort = (array) => {
   return array;
 }
 
-export default bubbleSort
+module.exports = bubbleSort;
